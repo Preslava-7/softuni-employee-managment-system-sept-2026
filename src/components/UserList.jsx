@@ -4,7 +4,6 @@ import UserListItem from "./UserListItem";
 export default function UserList({ users }) {
     return (
         <div className="table-wrapper">
-                        <Spinner/>
                         <table className="table">
                             <thead>
                                 <tr>
